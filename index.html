@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가소제 자동 산가 측정 시스템 제안서</title>
+    <style>
+        /* 기본 스타일 설정 */
+        body {
+            font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        /* 콘텐츠를 감싸는 중앙 컨테이너 */
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+        /* 제목 스타일 */
+        h1, h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 1.6em;
+            margin-top: 40px;
+        }
+        /* 핵심 목표를 강조하는 스타일 */
+        .objective {
+            background-color: #eaf2f8;
+            border-left: 5px solid #0056b3;
+            padding: 20px;
+            margin: 25px 0;
+            font-size: 1.1em;
+            font-weight: bold;
+            border-radius: 0 5px 5px 0;
+        }
+        /* 데모 이미지 스타일 */
+        .product-image {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .product-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        /* 리스트 스타일 (체크 아이콘 사용) */
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%230056b3" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>') no-repeat left center;
+            background-size: 20px;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            font-size: 1.05em;
+        }
+        /* 테이블 스타일 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #0056b3;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>실시간 가소제 자동 산가 측정 시스템 (In-Situ-AVM)</h1>
+
+        <div class="objective">
+            <p>[목표] 반응기에 직접 설치하여 가소제 생산 공정의 산가(Acid Value)를 실시간으로 자동 측정함으로써, 품질 균일화 및 생산성 향상을 달성하는 솔루션 개발</p>
+        </div>
+
+        <div class="product-image">
+            <img src="https://i.ibb.co/hDB34pP/1.png" alt="가소제 자동 산가 측정기 데모 이미지">
+        </div>
+
+        <h2>주요 특징</h2>
+        <ul>
+            <li><strong>반응기 직접 설치 (In-Situ):</strong> 공정 중단이나 샘플링 없이 반응기 내부에서 직접 연속 측정이 가능합니다.</li>
+            <li><strong>고온/고압 내구성 센서:</strong> 특수 합금(Hastelloy 등)과 내화학성 소재를 사용하여 최대 250℃의 고온 환경에서도 안정적인 성능을 보장합니다.</li>
+            <li><strong>완전 자동화 측정:</strong> 설정된 주기에 따라 자동으로 산가를 측정하고 데이터를 기록하며, 이상 발생 시 즉각적인 알람을 제공합니다.</li>
+            <li><strong>실시간 데이터 모니터링:</strong> 중앙 제어 시스템(DCS/PLC)과 연동하여 반응 공정의 산가 변화를 실시간으로 확인하고 제어할 수 있습니다.</li>
+            <li><strong>높은 신뢰성과 재현성:</strong> 정밀 분석 알고리즘을 통해 수동 측정에서 발생하는 오차를 최소화하고 일관된 데이터를 제공합니다.</li>
+        </ul>
+
+        <h2>기대 효과</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>항목</th>
+                    <th>상세 내용</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>품질 향상</strong></td>
+                    <td>정확한 반응 종말점 예측을 통해 균일하고 우수한 품질의 제품을 생산합니다.</td>
+                </tr>
+                <tr>
+                    <td><strong>생산성 증대</strong></td>
+                    <td>반응 시간을 최적화하고 불필요한 대기 시간을 단축하여 생산 효율을 극대화합니다.</td>
+                </tr>
+                <tr>
+                    <td><strong>원가 절감</strong></td>
+                    <td>과반응을 방지하여 원재료 및 에너지 사용량을 줄이고, 수동 분석에 필요한 인력과 시약 비용을 절감합니다.</td>
+                </tr>
+                <tr>
+                    <td><strong>안전 확보</strong></td>
+                    <td>작업자가 고온, 유해 물질에 노출될 위험 없이 안전한 환경에서 공정을 관리할 수 있습니다.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>기술 사양 (예시)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>사양</th>
+                    <th>내용</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>측정 항목</td>
+                    <td>산가 (Acid Value, mg KOH/g)</td>
+                </tr>
+                 <tr>
+                    <td>측정 원리</td>
+                    <td>전위차 적정법 기반 센서 (Potentiometric)</td>
+                </tr>
+                <tr>
+                    <td>작동 온도</td>
+                    <td>-20℃ ~ 250℃</td>
+                </tr>
+                <tr>
+                    <td>측정 주기</td>
+                    <td>1분 ~ 60분 (사용자 설정 가능)</td>
+                </tr>
+                <tr>
+                    <td>센서 재질</td>
+                    <td>Hastelloy C-276, PEEK, PTFE</td>
+                </tr>
+                <tr>
+                    <td>통신 방식</td>
+                    <td>4-20mA, Modbus TCP/IP, Ethernet</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
